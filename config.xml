@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="net.tigoe.simpleserial" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" >
-    <name>Motorstyring med bluetooth</name>
+    <name>Modtager</name>
     <description>
-        Simple serial demo for Bluetooth serial Cordova plugin.
+       .
     </description>
     <author>
        Baseret på eksempel af Don Coleman https://github.com/don/BluetoothSerial revideret af Lone Østerlund
