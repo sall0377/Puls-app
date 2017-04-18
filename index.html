@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- Eksempel er udarbejdet med inspiration herfra: 
+https://github.com/don/BluetoothSerial
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+		<script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="index1.js"></script>
+       
+        <title>Bluetooth Test</title>
+    </head>
+    <body onload="onLoad()">
+        <h1>Bluetooth Test</h1>
+        <div id="fraArduino"></div>
+        <div id="statusDiv"></div>
+		<button type="button"  onclick = "sendToArduino('f')"> Fremad </button>
+		<button type="button"  onclick = "sendToArduino('b')"> Bagl&aeligns </button>
+		<button type="button"  onclick = "sendToArduino('h')"> H&oslashjre </button>
+		<button type="button"  onclick = "sendToArduino('v')"> Venstre </button>
+		<button type="button"  onclick = "sendToArduino('r')"> Stop </button>
+		
+    </body>
+</html>
